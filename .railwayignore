@@ -1,0 +1,9 @@
+node_modules/
+qa/
+qa2/
+dist-artifact/
+dist-preview/
+sources/
+curation/
+tools/
+.deploy.env

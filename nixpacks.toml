@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["nodejs_22", "gnutar"]
+[phases.install]
+cmds = ["echo skip-install"]
+[start]
+cmd = "node server/server.js"

@@ -1,0 +1,10 @@
+node_modules/
+qa/
+qa2/
+dist-artifact/
+dist-preview/
+sources/
+.deploy.env
+__pycache__/
+site/media/
+site/data/session.json

@@ -1,0 +1,14 @@
+{
+  "name": "agadir-session",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Private microsite: Spotify France — Une parenthèse sur l'Atlantique, hosted by Wave Rise Surf School",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "SITE_PASSWORD=dev SESSION_SECRET=dev-secret-dev-secret-dev-secret-00 SITE_KEY=devkey PORT=8080 node server/server.js",
+    "ingest": "node tools/ingest.mjs",
+    "og": "node tools/og.mjs"
+  },
+  "devDependencies": { "sharp": "^0.34.5", "exifr": "^7.1.3" }
+}
